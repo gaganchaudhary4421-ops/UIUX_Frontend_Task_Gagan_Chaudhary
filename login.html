@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Log in — DroneTV</title>
+<meta name="description" content="Log in to your DroneTV account to track courses, certifications and saved products.">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="auth-shell">
+
+  <section class="auth-visual" aria-hidden="true">
+    <a href="index.html" class="brand" style="color:#fff;">
+      <svg class="brand-mark" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="17" cy="17" r="16" stroke="#FFAE1F" stroke-width="2"/>
+        <path d="M17 6L17 28M6 17L28 17" stroke="#FFAE1F" stroke-width="2"/>
+        <circle cx="17" cy="17" r="4.5" fill="#FFAE1F"/>
+      </svg>
+      <span>DroneTV</span>
+    </a>
+
+    <blockquote>
+      “DroneTV cut our site-inspection cycle from three days to under six hours.”
+      <cite>— Site Operations Lead, infrastructure survey team</cite>
+    </blockquote>
+
+    <div>
+      <svg width="100%" height="120" viewBox="0 0 400 120" fill="none">
+        <path d="M0 90 C 60 60, 120 100, 180 70 S 300 40, 400 60" stroke="#2F7DFF" stroke-width="2" opacity="0.6"/>
+        <path d="M0 100 C 60 80, 120 110, 180 90 S 300 70, 400 85" stroke="#FFAE1F" stroke-width="2" opacity="0.4"/>
+      </svg>
+      <p style="color:var(--on-ink-soft); font-size:0.85rem; margin:0;">Trusted by 120+ survey, media and training teams.</p>
+    </div>
+  </section>
+
+  <section class="auth-form-side">
+    <div class="auth-card">
+      <a href="index.html" class="brand" style="margin-bottom:32px; display:flex;">
+        <svg class="brand-mark" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="17" cy="17" r="16" stroke="#2F7DFF" stroke-width="2"/>
+          <path d="M17 6L17 28M6 17L28 17" stroke="#2F7DFF" stroke-width="2"/>
+          <circle cx="17" cy="17" r="4.5" fill="#FFAE1F"/>
+        </svg>
+        <span>DroneTV</span>
+      </a>
+
+      <h1>Welcome back</h1>
+      <p>Log in to track your courses, certifications and saved products.</p>
+
+      <form id="login-form" novalidate>
+        <div class="field">
+          <label for="email">Email address</label>
+          <input type="email" id="email" name="email" placeholder="you@email.com" autocomplete="email" required>
+          <p class="field-error">Enter a valid email address.</p>
+        </div>
+
+        <div class="field">
+          <label for="password">Password</label>
+          <div class="input-wrap">
+            <input type="password" id="password" name="password" placeholder="••••••••" autocomplete="current-password" required>
+            <button type="button" class="toggle-visibility" aria-label="Show password">Show</button>
+          </div>
+          <p class="field-error">Password must be at least 6 characters.</p>
+        </div>
+
+        <div class="check-row">
+          <label><input type="checkbox" name="remember"> Remember me</label>
+          <a href="#">Forgot password?</a>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block">Log in</button>
+        <p id="form-status" style="min-height:20px; font-size:0.85rem; margin-top:12px; text-align:center;" role="status"></p>
+      </form>
+
+      <div class="divider">or continue with</div>
+      <div style="display:flex; gap:12px;">
+        <button class="btn btn-ghost btn-block" type="button">Google</button>
+        <button class="btn btn-ghost btn-block" type="button">GitHub</button>
+      </div>
+
+      <p class="auth-switch">Don't have an account? <a href="#">Create one free</a></p>
+    </div>
+  </section>
+
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>

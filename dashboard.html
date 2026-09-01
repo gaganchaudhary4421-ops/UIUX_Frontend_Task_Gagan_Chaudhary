@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard — DroneTV</title>
+<meta name="description" content="Your DroneTV dashboard — enrolled courses, certifications and recommendations.">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="dash-shell">
+
+  <aside class="dash-sidebar">
+    <a href="index.html" class="brand">
+      <svg class="brand-mark" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="17" cy="17" r="16" stroke="#FFAE1F" stroke-width="2"/>
+        <path d="M17 6L17 28M6 17L28 17" stroke="#FFAE1F" stroke-width="2"/>
+        <circle cx="17" cy="17" r="4.5" fill="#FFAE1F"/>
+      </svg>
+      <span>DroneTV</span>
+    </a>
+
+    <nav class="dash-nav">
+      <a href="dashboard.html" class="active">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="7" height="9" rx="1.5"/><rect x="14" y="3" width="7" height="5" rx="1.5"/><rect x="14" y="12" width="7" height="9" rx="1.5"/><rect x="3" y="16" width="7" height="5" rx="1.5"/></svg>
+        <span class="label-text">Dashboard</span>
+      </a>
+      <a href="#">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 19.5V5a2 2 0 0 1 2-2h13v16"/><path d="M6 22a2 2 0 0 1-2-2V19a1 1 0 0 1 1-1h14v3a1 1 0 0 1-1 1H6Z"/></svg>
+        <span class="label-text">My courses</span>
+      </a>
+      <a href="#">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="8" r="5"/><path d="M8 14l-1 7 5-3 5 3-1-7"/></svg>
+        <span class="label-text">Certificates</span>
+      </a>
+      <a href="#">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        <span class="label-text">Community</span>
+      </a>
+      <a href="#">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .34 1.87l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.7 1.7 0 0 0-1.87-.34 1.7 1.7 0 0 0-1 1.55V21a2 2 0 0 1-4 0v-.09A1.7 1.7 0 0 0 9 19.4a1.7 1.7 0 0 0-1.87.34l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.7 1.7 0 0 0 4.6 15a1.7 1.7 0 0 0-1.55-1H3a2 2 0 0 1 0-4h.09A1.7 1.7 0 0 0 4.6 9a1.7 1.7 0 0 0-.34-1.87l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.7 1.7 0 0 0 9 4.6a1.7 1.7 0 0 0 1-1.55V3a2 2 0 0 1 4 0v.09a1.7 1.7 0 0 0 1 1.55 1.7 1.7 0 0 0 1.87-.34l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.7 1.7 0 0 0 19.4 9a1.7 1.7 0 0 0 1.55 1H21a2 2 0 0 1 0 4h-.09a1.7 1.7 0 0 0-1.55 1Z"/></svg>
+        <span class="label-text">Settings</span>
+      </a>
+    </nav>
+
+    <div class="dash-sidebar-foot">
+      <a href="index.html">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/><path d="M16 17l5-5-5-5"/><path d="M21 12H9"/></svg>
+        <span class="label-text">Log out</span>
+      </a>
+    </div>
+  </aside>
+
+  <div class="dash-main">
+    <header class="dash-topbar">
+      <div style="display:flex; align-items:center; gap:14px;">
+        <button class="icon-btn dash-menu-toggle" style="display:none;" aria-label="Toggle menu" aria-expanded="false">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+        </button>
+        <div class="dash-search">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+          <input type="text" placeholder="Search courses, products, articles…">
+        </div>
+      </div>
+      <div class="dash-user">
+        <button class="icon-btn" aria-label="Notifications">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.7 21a2 2 0 0 1-3.4 0"/></svg>
+          <span class="dot-badge"></span>
+        </button>
+        <div class="avatar">AK</div>
+      </div>
+    </header>
+
+    <div class="dash-content">
+
+      <div class="welcome-band">
+        <div>
+          <h1>Welcome back, Aditi 👋</h1>
+          <p>You're 68% through Remote Pilot Certification — 2 lessons left this week.</p>
+        </div>
+        <a href="#" class="btn btn-signal">Resume course</a>
+      </div>
+
+      <div class="kpi-grid">
+        <div class="kpi-card">
+          <div class="kpi-top">
+            <div class="kpi-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 19.5V5a2 2 0 0 1 2-2h13v16"/><path d="M6 22a2 2 0 0 1-2-2V19a1 1 0 0 1 1-1h14v3a1 1 0 0 1-1 1H6Z"/></svg></div>
+            <span class="kpi-delta">+1 this month</span>
+          </div>
+          <strong>3</strong>
+          <span>Courses in progress</span>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-top">
+            <div class="kpi-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 6 9 17l-5-5"/></svg></div>
+            <span class="kpi-delta">+2 this month</span>
+          </div>
+          <strong>7</strong>
+          <span>Courses completed</span>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-top">
+            <div class="kpi-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="8" r="5"/><path d="M8 14l-1 7 5-3 5 3-1-7"/></svg></div>
+          </div>
+          <strong>4</strong>
+          <span>Certificates earned</span>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-top">
+            <div class="kpi-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div>
+          </div>
+          <strong>86</strong>
+          <span>Hours learned</span>
+        </div>
+      </div>
+
+      <div class="dash-grid">
+        <div>
+          <div class="panel">
+            <div class="panel-head">
+              <h2>Continue learning</h2>
+              <a href="#">View all</a>
+            </div>
+
+            <div class="course-progress-row">
+              <div class="progress-thumb thumb-1"></div>
+              <div class="progress-info">
+                <h4>Remote Pilot Certification</h4>
+                <div class="progress-track"><div class="progress-fill" data-progress="68"></div></div>
+              </div>
+              <span class="progress-pct">68%</span>
+            </div>
+            <div class="course-progress-row">
+              <div class="progress-thumb thumb-2"></div>
+              <div class="progress-info">
+                <h4>GIS Mapping with Drone Data</h4>
+                <div class="progress-track"><div class="progress-fill" data-progress="35"></div></div>
+              </div>
+              <span class="progress-pct">35%</span>
+            </div>
+            <div class="course-progress-row">
+              <div class="progress-thumb thumb-3"></div>
+              <div class="progress-info">
+                <h4>AI for Aerial Data Analysis</h4>
+                <div class="progress-track"><div class="progress-fill" data-progress="12"></div></div>
+              </div>
+              <span class="progress-pct">12%</span>
+            </div>
+          </div>
+
+          <div class="panel">
+            <div class="panel-head">
+              <h2>Recommended for you</h2>
+              <a href="courses.html">Browse all</a>
+            </div>
+            <div class="card-grid" style="grid-template-columns:repeat(2,1fr); gap:16px;">
+              <article class="course-card">
+                <div class="course-thumb thumb-4" style="height:110px;"></div>
+                <div class="course-body" style="padding:16px;">
+                  <div class="tag-row"><span class="tag tag-level">Beginner</span></div>
+                  <h3 style="font-size:0.95rem;">Drone Photography Fundamentals</h3>
+                  <div class="course-meta"><span>4.6 ★</span><span class="course-price">₹3,999</span></div>
+                </div>
+              </article>
+              <article class="course-card">
+                <div class="course-thumb thumb-5" style="height:110px;"></div>
+                <div class="course-body" style="padding:16px;">
+                  <div class="tag-row"><span class="tag tag-level">Advanced</span></div>
+                  <h3 style="font-size:0.95rem;">Advanced Flight Operations</h3>
+                  <div class="course-meta"><span>4.8 ★</span><span class="course-price">₹9,499</span></div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="panel">
+            <div class="panel-head">
+              <h2>Recent activity</h2>
+            </div>
+            <div class="activity-item">
+              <div class="activity-dot"></div>
+              <div><p>Completed lesson: "Airspace classes explained"</p><time>Today, 9:20 AM</time></div>
+            </div>
+            <div class="activity-item">
+              <div class="activity-dot"></div>
+              <div><p>Earned certificate: GIS Foundations</p><time>Yesterday</time></div>
+            </div>
+            <div class="activity-item">
+              <div class="activity-dot"></div>
+              <div><p>Saved product: AirSense Obstacle Sensor</p><time>2 days ago</time></div>
+            </div>
+            <div class="activity-item">
+              <div class="activity-dot"></div>
+              <div><p>Joined cohort: AI for Aerial Data Analysis</p><time>5 days ago</time></div>
+            </div>
+          </div>
+
+          <div class="panel">
+            <div class="panel-head"><h2>Upcoming session</h2></div>
+            <p style="font-size:0.9rem; color:var(--slate-soft); margin-bottom:16px;">Live Q&amp;A — Flight planning for restricted airspace</p>
+            <div style="display:flex; align-items:center; justify-content:space-between;">
+              <span style="font-size:0.85rem; color:var(--slate-soft);">Thu, 4:00 PM</span>
+              <a href="#" class="btn btn-ghost btn-sm">Add to calendar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>

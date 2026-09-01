@@ -63,4 +63,4 @@ Design file and prototype link: see `01_Figma_Design/Figma_Link.txt` (design sys
 
 ## Live demo
 
-Not deployed for this submission — run locally as described above, or see `04_GitHub/GitHub_Link.txt`.
+Not deployed for this submission — run locally as described above, or see `https://github.com/gaganchaudhary4421-ops/UIUX_Frontend_Task_Gagan_Chaudhary`.

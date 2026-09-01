@@ -1,0 +1,534 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DroneTV — Discover the Drone Ecosystem</title>
+    <meta
+      name="description"
+      content="DroneTV brings drone technology, GIS and AI products, industry news and hands-on training into one place."
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <a href="index.html" class="brand">
+          <svg
+            class="brand-mark"
+            viewBox="0 0 34 34"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle cx="17" cy="17" r="16" stroke="#2F7DFF" stroke-width="2" />
+            <path
+              d="M17 6L17 28M6 17L28 17"
+              stroke="#2F7DFF"
+              stroke-width="2"
+            />
+            <circle cx="17" cy="17" r="4.5" fill="#FFAE1F" />
+          </svg>
+          <span>DroneTV<small>Drone · GIS · AI Ecosystem</small></span>
+        </a>
+
+        <nav class="main-nav" id="main-nav">
+          <a href="index.html" aria-current="page">Home</a>
+          <a href="services.html">Services</a>
+          <a href="courses.html">Courses</a>
+        </nav>
+
+        <div class="header-actions">
+          <a href="login.html" class="btn btn-ghost">Log in</a>
+          <a href="courses.html" class="btn btn-primary">Get Started</a>
+          <button
+            class="nav-toggle"
+            aria-label="Toggle navigation menu"
+            aria-expanded="false"
+          >
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section class="hero" style="padding-top: 56px">
+        <div class="container">
+          <div class="hero-copy">
+            <p class="eyebrow">Voice of drone technology, GIS &amp; AI</p>
+            <h1>The drone ecosystem, mapped in one place.</h1>
+            <p>
+              Explore emerging products, read the stories shaping the industry,
+              and train with certified instructors — DroneTV is where pilots,
+              GIS analysts and AI builders keep pace with the sky.
+            </p>
+            <div class="hero-actions">
+              <a href="services.html" class="btn btn-primary"
+                >Explore Services</a
+              >
+              <a href="courses.html" class="btn btn-ghost">Browse Courses</a>
+            </div>
+            <div class="hero-meta">
+              <div>
+                <strong data-count-to="500" data-suffix="+">0+</strong
+                ><span>Courses &amp; modules</span>
+              </div>
+              <div>
+                <strong data-count-to="120" data-suffix="+">0+</strong
+                ><span>Industry partners</span>
+              </div>
+              <div>
+                <strong data-count-to="15" data-suffix="K+">0K+</strong
+                ><span>Community members</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-visual" aria-hidden="true">
+            <svg viewBox="0 0 480 420" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <radialGradient id="glow" cx="50%" cy="35%" r="65%">
+                  <stop offset="0%" stop-color="#2F7DFF" stop-opacity="0.22" />
+                  <stop offset="100%" stop-color="#2F7DFF" stop-opacity="0" />
+                </radialGradient>
+                <linearGradient id="body" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#16264A" />
+                  <stop offset="100%" stop-color="#0B1220" />
+                </linearGradient>
+              </defs>
+              <circle cx="240" cy="180" r="200" fill="url(#glow)" />
+              <g stroke="#D8E1F5" stroke-width="1" opacity="0.5">
+                <circle cx="240" cy="200" r="70" fill="none" />
+                <circle cx="240" cy="200" r="120" fill="none" />
+                <circle cx="240" cy="200" r="170" fill="none" />
+              </g>
+              <!-- drone body -->
+              <g transform="translate(240,190)">
+                <line
+                  x1="-70"
+                  y1="-70"
+                  x2="70"
+                  y2="70"
+                  stroke="#5B6B82"
+                  stroke-width="3"
+                />
+                <line
+                  x1="70"
+                  y1="-70"
+                  x2="-70"
+                  y2="70"
+                  stroke="#5B6B82"
+                  stroke-width="3"
+                />
+                <circle
+                  cx="-70"
+                  cy="-70"
+                  r="22"
+                  fill="#fff"
+                  stroke="#2F7DFF"
+                  stroke-width="3"
+                />
+                <circle
+                  cx="70"
+                  cy="-70"
+                  r="22"
+                  fill="#fff"
+                  stroke="#2F7DFF"
+                  stroke-width="3"
+                />
+                <circle
+                  cx="-70"
+                  cy="70"
+                  r="22"
+                  fill="#fff"
+                  stroke="#2F7DFF"
+                  stroke-width="3"
+                />
+                <circle
+                  cx="70"
+                  cy="70"
+                  r="22"
+                  fill="#fff"
+                  stroke="#2F7DFF"
+                  stroke-width="3"
+                />
+                <rect
+                  x="-34"
+                  y="-24"
+                  width="68"
+                  height="48"
+                  rx="14"
+                  fill="url(#body)"
+                />
+                <circle cx="0" cy="0" r="7" fill="#FFAE1F" />
+              </g>
+              <g
+                fill="#1C2536"
+                font-family="Inter, sans-serif"
+                font-size="11"
+                opacity="0.55"
+              >
+                <text x="20" y="40">ALT 118m</text>
+                <text x="360" y="40" text-anchor="end">28.6° N</text>
+                <text x="20" y="390">GIS · MAP LAYER 03</text>
+                <text x="360" y="390" text-anchor="end">SIGNAL ●●●●</text>
+              </g>
+            </svg>
+          </div>
+        </div>
+      </section>
+
+      <!-- SERVICES OVERVIEW -->
+      <section id="services">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">What DroneTV offers</p>
+            <h2>Everything the drone economy runs on.</h2>
+            <p>
+              From the newest hardware to certified flight training, DroneTV
+              connects the people building the drone, GIS and AI ecosystem.
+            </p>
+          </div>
+
+          <div class="card-grid">
+            <div class="card">
+              <div class="card-icon">
+                <svg
+                  width="22"
+                  height="22"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                >
+                  <rect x="3" y="3" width="7" height="7" rx="1.5" />
+                  <rect x="14" y="3" width="7" height="7" rx="1.5" />
+                  <rect x="3" y="14" width="7" height="7" rx="1.5" />
+                  <rect x="14" y="14" width="7" height="7" rx="1.5" />
+                </svg>
+              </div>
+              <h3>Product Showcase</h3>
+              <p>
+                Hands-on reviews and specs for the newest drones, sensors and
+                GIS hardware entering the market.
+              </p>
+              <a class="card-link" href="services.html">See products →</a>
+            </div>
+            <div class="card">
+              <div class="card-icon">
+                <svg
+                  width="22"
+                  height="22"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                >
+                  <path
+                    d="M4 19V5a2 2 0 0 1 2-2h10l4 4v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2Z"
+                  />
+                  <path d="M14 3v4h4" />
+                  <path d="M8 13h8M8 17h5" />
+                </svg>
+              </div>
+              <h3>Industry News &amp; Insights</h3>
+              <p>
+                Regulation changes, funding rounds and field reports, written
+                for people who fly and build.
+              </p>
+              <a class="card-link" href="services.html">Read insights →</a>
+            </div>
+            <div class="card">
+              <div class="card-icon">
+                <svg
+                  width="22"
+                  height="22"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.8"
+                >
+                  <circle cx="12" cy="8" r="4" />
+                  <path d="M4 21v-1a8 8 0 0 1 16 0v1" />
+                </svg>
+              </div>
+              <h3>Training &amp; Certification</h3>
+              <p>
+                Structured pilot and GIS courses that take you from first flight
+                to commercial certification.
+              </p>
+              <a class="card-link" href="courses.html">View courses →</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- COURSES STRIP -->
+      <section id="courses" style="padding-top: 0">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">Training programs</p>
+            <h2>Learn to fly, map and analyse.</h2>
+            <p>
+              Cohort-based and self-paced programs built with working pilots and
+              GIS analysts.
+            </p>
+          </div>
+
+          <div class="card-grid">
+            <article class="course-card">
+              <div class="course-thumb thumb-1"></div>
+              <div class="course-body">
+                <div class="tag-row">
+                  <span class="tag tag-level">Beginner</span
+                  ><span class="tag">6 weeks</span>
+                </div>
+                <h3>Remote Pilot Certification</h3>
+                <p>
+                  Airspace rules, flight planning and the practical test, from
+                  zero experience.
+                </p>
+                <div class="course-meta">
+                  <span>4.8 ★ (612)</span
+                  ><span class="course-price">₹6,999</span>
+                </div>
+              </div>
+            </article>
+            <article class="course-card">
+              <div class="course-thumb thumb-2"></div>
+              <div class="course-body">
+                <div class="tag-row">
+                  <span class="tag tag-level">Intermediate</span
+                  ><span class="tag">8 weeks</span>
+                </div>
+                <h3>GIS Mapping with Drone Data</h3>
+                <p>
+                  Turn raw aerial capture into orthomosaics and terrain models
+                  used on real sites.
+                </p>
+                <div class="course-meta">
+                  <span>4.9 ★ (348)</span
+                  ><span class="course-price">₹11,499</span>
+                </div>
+              </div>
+            </article>
+            <article class="course-card">
+              <div class="course-thumb thumb-3"></div>
+              <div class="course-body">
+                <div class="tag-row">
+                  <span class="tag tag-level">Advanced</span
+                  ><span class="tag">10 weeks</span>
+                </div>
+                <h3>AI for Aerial Data Analysis</h3>
+                <p>
+                  Train detection models on drone imagery for agriculture,
+                  construction and inspection.
+                </p>
+                <div class="course-meta">
+                  <span>4.7 ★ (203)</span
+                  ><span class="course-price">₹14,999</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- FEATURED CONTENT -->
+      <section>
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">Featured content</p>
+            <h2>From the field this month.</h2>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-main">
+              <div class="feature-main-thumb thumb-2"></div>
+              <div class="feature-main-body">
+                <span
+                  class="tag tag-level"
+                  style="margin-bottom: 14px; display: inline-block"
+                  >Industry Report</span
+                >
+                <h3 style="font-size: 1.4rem">
+                  How GIS-first survey teams are cutting site inspection time by
+                  60%
+                </h3>
+                <p style="color: var(--slate-soft)">
+                  A look inside three infrastructure firms that replaced manual
+                  surveys with drone-captured terrain models.
+                </p>
+              </div>
+            </article>
+            <div class="feature-side">
+              <div class="feature-side-item">
+                <div class="feature-side-thumb thumb-3"></div>
+                <div>
+                  <h4>New Part 107-style rules explained</h4>
+                  <span>Regulation · 4 min read</span>
+                </div>
+              </div>
+              <div class="feature-side-item">
+                <div class="feature-side-thumb thumb-4"></div>
+                <div>
+                  <h4>Inside the AirSense obstacle-avoidance stack</h4>
+                  <span>Product · 6 min read</span>
+                </div>
+              </div>
+              <div class="feature-side-item">
+                <div class="feature-side-thumb thumb-5"></div>
+                <div>
+                  <h4>What agri-drone buyers ask us most</h4>
+                  <span>Interview · 5 min read</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- STATS -->
+      <section>
+        <div class="container">
+          <div class="stats-band">
+            <div class="stats-grid">
+              <div class="stat">
+                <strong data-count-to="500" data-suffix="+">0+</strong
+                ><span>Courses &amp; training modules</span>
+              </div>
+              <div class="stat">
+                <strong data-count-to="120" data-suffix="+">0+</strong
+                ><span>Industry partners</span>
+              </div>
+              <div class="stat">
+                <strong data-count-to="15" data-suffix="K+">0K+</strong
+                ><span>Community members</span>
+              </div>
+              <div class="stat">
+                <strong data-count-to="40" data-suffix="+">0+</strong
+                ><span>Expert instructors</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FINAL CTA -->
+      <section style="padding-top: 0">
+        <div class="container">
+          <div class="cta-banner">
+            <div>
+              <h2>Ready to take off?</h2>
+              <p>
+                Create a free account to save courses, track certifications and
+                follow the products you care about.
+              </p>
+            </div>
+            <div class="cta-actions">
+              <a href="login.html" class="btn btn-signal"
+                >Create free account</a
+              >
+              <a href="services.html" class="btn btn-on-ink"
+                >Explore services</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <a href="index.html" class="brand">
+              <svg
+                class="brand-mark"
+                viewBox="0 0 34 34"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="17"
+                  cy="17"
+                  r="16"
+                  stroke="#2F7DFF"
+                  stroke-width="2"
+                />
+                <path
+                  d="M17 6L17 28M6 17L28 17"
+                  stroke="#2F7DFF"
+                  stroke-width="2"
+                />
+                <circle cx="17" cy="17" r="4.5" fill="#FFAE1F" />
+              </svg>
+              <span>DroneTV</span>
+            </a>
+            <p>
+              The drone, GIS and AI ecosystem in one place — products, insights
+              and training for people who fly.
+            </p>
+            <div class="social-row">
+              <a href="#" aria-label="DroneTV on Twitter">𝕏</a>
+              <a href="#" aria-label="DroneTV on LinkedIn">in</a>
+              <a href="#" aria-label="DroneTV on YouTube">▶</a>
+            </div>
+          </div>
+          <div>
+            <h4>Explore</h4>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="courses.html">Courses</a></li>
+              <li><a href="login.html">Log in</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Resources</h4>
+            <ul class="footer-links">
+              <li><a href="#">Industry news</a></li>
+              <li><a href="#">Regulations guide</a></li>
+              <li><a href="#">Partner directory</a></li>
+              <li><a href="#">Help centre</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Stay updated</h4>
+            <p>Get one email a week on new products and training cohorts.</p>
+            <form
+              onsubmit="return false;"
+              style="display: flex; gap: 8px; margin-top: 12px"
+            >
+              <input
+                type="email"
+                placeholder="you@email.com"
+                aria-label="Email address"
+                style="
+                  flex: 1;
+                  padding: 11px 14px;
+                  border-radius: 8px;
+                  border: 1px solid rgba(231, 236, 247, 0.2);
+                  background: rgba(255, 255, 255, 0.04);
+                  color: #fff;
+                  font-size: 0.88rem;
+                "
+              />
+              <button class="btn btn-primary btn-sm" type="submit">Join</button>
+            </form>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>© 2026 DroneTV. All rights reserved.</span>
+          <span
+            >Design &amp; build by Gagan Chaudhary for — practical test
+            assignment for iPage Group.</span
+          >
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
