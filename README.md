@@ -59,7 +59,7 @@ See `Screenshots/` in the submission folder for desktop and mobile captures of e
 
 ## Figma
 
-Design file and prototype link: see `01_Figma_Design/Figma_Link.txt` (design system, 5 screens and clickable prototype — figma link to be added).
+Design file and prototype nlink: see `01_Figma_Design/Figma_Link.txt` (design system, 5 screens and clickable prototype — figma link to be added).
 
 ## Live demo
 
