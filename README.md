@@ -57,9 +57,7 @@ Breakpoints at 1180px, 991px, 767px and 480px cover desktop, laptop, tablet and 
 
 See `Screenshots/` in the submission folder for desktop and mobile captures of each screen.
 
-## Figma
-
-Design file and prototype nlink: see `01_Figma_Design/Figma_Link.txt` (design system, 5 screens and clickable prototype — figma link to be added).
+ 
 
 ## Live demo
 
